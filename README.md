@@ -1,2 +1,2 @@
 # JeongSein
-혹시🤔코딩하려면💻어디로 가야돼요?😓 네?🎧 이화의😳 코딩스테이지요👩‍🎤🎶 💚휵. 휴휴휵. 휵. 정세인💚 입니다〰️ 잘✌️부탁드려요🙏
+<img src="https://user-images.githubusercontent.com/93020734/224773474-8803e061-9013-42eb-ae76-c595e1a7263a.png" width="600" height="300" />
