@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../pretty.css">
+  <title>HTML & CSS 02-01-01</title>
+
+  <style>
+    .style-1 {
+      color: olivedrab;
+    }
+    p {
+    text-shadow:
+    /* 안쪽 흰색 그림자 */
+    1px 1px lightgrey
+    }
+    div {
+      padding: 12x;
+      box-sizing: border-box;
+      background-color: skyblue;
+      text-align: center;
+      width: 16em;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }   
+    
+    .outer {
+  width: 200px; height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+    }
+    .with-bg {
+  height: 100%; 
+  background-size: cover;
+  background-image: url(https://pbs.twimg.com/media/FsjTgWDaEAEvLDP?format=jpg&name=small);
+
+    }
+    
+
+  </style>
+
+  <link rel="stylesheet" href="./01.css">
+
+</head>
+<body>
+<div class="outer">
+    <div class="with-bg"></div>
+</div>
+    
+<p><div><b style="color: rgb(255, 255, 255);"><h2>&nbsp;&nbsp;자기소개 페이지</h2></b></p></div>
+    
+<ol>
+  <p>
+    <b style="color: tomato;">
+      이름
+    </b>
+  </p>
+    정세인
+  
+  <p>
+    <b style="color: rgba(53, 109, 213, 0.64);">
+      나이
+  </p>
+    </b>
+    20살! (04년생)
+  
+  <p>
+    <b class="style-1"> 취미 </b> 최근의 붐은 <i><b> J-POP 듣기 </b></i> <br></p>
+    그 외에도 게임, 영상 편집, 웹툰/웹소설 보기 등... etc.
+  </p>
+  <p>
+    <b class="style-2"> 학과 </b> 엘텍공과대학 휴먼기계바이오공학부 23학번 <br></p>
+    새내기입니다 >< 
+  </p>
+</ol>
+</body>
+</html>
